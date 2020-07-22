@@ -15,6 +15,8 @@ api_key = False
 if api_key is False :
   api_key = 42 
   geo = "http://py4e-data.dr-chuck.net/json?"
+  # please try this with your own google api 
+  # this is just a project base api and server from coursera 
 
 # empty dict 
 dict = dict()
