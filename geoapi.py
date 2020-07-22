@@ -37,7 +37,7 @@ while True :
     dict["key"] = api_key 
     
   # encode address into url form 
-  url = server + urllib.parse.urlencode(dict)
+  url = geo + urllib.parse.urlencode(dict)
   print("URL:", url)
   
   # url oprn handle 
@@ -63,5 +63,4 @@ while True :
   place = js["results"][0]["formatted_address"]
   print("Location:", place)
   print("")
-  
-print("\n\nThank You!")
+
